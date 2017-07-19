@@ -3,8 +3,8 @@ colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB
 
 function getQuote()
 {	
-	var q="Random Quote";
-	var a="Author";
+	var q="Leave one wolf, and the sheep are never safe";
+	var a="Arya";
 	var url= "https://got-quotes.herokuapp.com/quotes";
 	$.getJSON(url, function(data){
 		q=data.quote;
